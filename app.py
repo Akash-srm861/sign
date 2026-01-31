@@ -78,8 +78,11 @@ def create_app():
     return app
 
 
+# Create app instance for gunicorn
+app = create_app()
+
+
 if __name__ == '__main__':
-    app = create_app()
     port = int(os.getenv('PORT', 5000))
     print(f"\n{'='*60}")
     print(f"Sign Language Learning App - Backend Server")
