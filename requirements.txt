@@ -23,7 +23,7 @@ gunicorn==21.2.0
 
 # Database
 psycopg2-binary==2.9.9
-sqlalchemy==2.0.27
+sqlalchemy==2.0.36
 
 # Supabase (uncomment if needed)
 # supabase==2.3.0
